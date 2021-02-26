@@ -1,7 +1,10 @@
 Feature:
 
+  Background:
+    * url myUrlBase
+
   Scenario: Fetch Car
-    Given url 'http://localhost:3000/car'
+    Given path 'car'
     And header Accept = 'application/json'
     When method GET
     Then status 200

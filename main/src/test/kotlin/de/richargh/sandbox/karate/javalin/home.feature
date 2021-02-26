@@ -1,7 +1,7 @@
 Feature:
 
   Scenario: Fetch Homepage
-    Given url 'http://localhost:3000'
+    Given url myUrlBase
     And header Accept = 'text/html'
     When method GET
     Then status 200
