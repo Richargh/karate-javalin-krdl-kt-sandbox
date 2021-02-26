@@ -7,13 +7,18 @@
 * link:https://github.com/intuit/karate[Karate Test Automation]
 ** link:main/src/test/kotlin/de/richargh/sandbox/karate/javalin/home.feature[Xpath testing]
 ** link:main/src/test/kotlin/de/richargh/sandbox/karate/javalin/car.feature[Jsonpath testing]
+** link:main/src/test/kotlin/de/richargh/sandbox/karate/javalin/kebab.feature[Karate UI with Geckodriver (Firefox)]
 * link:https://javalin.io/[Javalin]
 * link:https://docs.gradle.org/current/userguide/kotlin_dsl.html[Gradle Kotlin Dsl] (I call that Krdl)
+
+== Install
+
+* Install geckodriver before running the UI-specific tests
+** On MacOS with Homebrew `brew install geckodriver`
 
 == Usage
 
 * Build complete project `./gradlew build`
-
 
 == Additional Resources
 
