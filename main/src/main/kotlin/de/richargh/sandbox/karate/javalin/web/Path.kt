@@ -7,4 +7,8 @@ object Path {
     object Car {
         val all = "/car"
     }
+    object Kebab {
+        val index = "/kebab"
+        val more = "/kebab/more"
+    }
 }

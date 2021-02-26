@@ -114,3 +114,6 @@ src/docs/asciidoc/images
 logs/
 
 .jqwik-database
+
+### JTE
+/main/jte-classes/

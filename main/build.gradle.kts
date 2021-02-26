@@ -18,6 +18,7 @@ dependencies {
     implementation("com.fasterxml.jackson.core:jackson-core:${Deps.Jackson.version}")
     implementation("com.fasterxml.jackson.core:jackson-databind:${Deps.Jackson.version}")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin:${Deps.Jackson.version}")
+    implementation("gg.jte:jte:${Deps.Jte.version}")
     implementation("org.slf4j:slf4j-simple:${Deps.Slf4j.version}")
 
     /** Test dependencies **/
