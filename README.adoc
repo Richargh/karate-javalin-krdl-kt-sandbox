@@ -1,18 +1,21 @@
-= Karate testing Javalin Sandbox
+= Karate testing Javalin (Sandbox)
 
 *Features*
 
-* Kotlin
+* link:https://kotlinlang.org/[Kotlin]
 * Java11
-* Karate
-* Gradle Kotlin Dsl (Krdl)
+* link:https://github.com/intuit/karate[Karate Test Automation]
+** link:main/src/test/kotlin/de/richargh/sandbox/karate/javalin/home.feature[Xpath testing]
+** link:main/src/test/kotlin/de/richargh/sandbox/karate/javalin/car.feature[Jsonpath testing]
+* link:https://javalin.io/[Javalin]
+* link:https://docs.gradle.org/current/userguide/kotlin_dsl.html[Gradle Kotlin Dsl] (I call that Krdl)
 
 == Usage
 
 * Build complete project `./gradlew build`
 
 
-== Resources
+== Additional Resources
 
 * https://github.com/sderosiaux/kotlin-gradle-karate-tests/
 * https://software-that-matters.com/2020/11/25/the-definitive-karate-api-testing-framework-getting-started-guide/
