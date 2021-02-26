@@ -2,9 +2,14 @@ import de.richargh.sandbox.karate.javalin.Deps
 
 plugins {
     kotlin("jvm")
-    id("java")
+    java
+    application
 
     id("java-test-fixtures")
+}
+
+application {
+    mainClass.set("de.richargh.sandbox.karate.javalin.MainKt")
 }
 
 

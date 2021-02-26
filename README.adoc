@@ -19,6 +19,7 @@
 == Usage
 
 * Build complete project `./gradlew build`
+* Start server `./gradlew run`
 
 == Additional Resources
 
